@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Tugas 1 - Form HTML</title>
+</head>
+<body>
+    <form name="tugas_form" method="post" action="">
+        <label for="input1">Input 1 (Readonly):</label><br>
+        <input type="text" id="input1" name="input1" value="Nilai Tetap" readonly><br><br>
+
+        <label for="input2">Input 2 (Max 5 Karakter):</label><br>
+        <input type="text" id="input2" name="input2" maxlength="5"><br><br>
+
+        <label for="input3">Input 3 (Disabled):</label><br>
+        <input type="text" id="input3" name="input3" disabled><br><br>
+
+        <label for="input4">Input 4 (Wajib Diisi):</label><br>
+        <input type="text" id="input4" name="input4" required><br><br><br><br>
+
+        <label for="input5">Input 5 (NIM Anda):</label><br>
+        <input type="text" id="input5" name="input5" maxlength="9" oninput="this.value = this.value.toUpperCase().replace(/[^A-Z0-9]/g, '')" required>\
+
+        <input type="submit" name="submit" id="submit" value="Kirim Data">
+    </form>
+</body>
+</html>
