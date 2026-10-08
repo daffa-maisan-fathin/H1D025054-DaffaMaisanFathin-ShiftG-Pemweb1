@@ -9,9 +9,9 @@ h2 {
 table {
     background: grey;
     margin: 0 auto;
-    padding: 15px; /* Ditambah agar konten tidak menempel pada border */
+    padding: 15px; 
     width: 68%;
-    /* Menggunakan style border dari Percobaan 1 */
+
     border-style: double;
     border-width: 6px;
     border-color: cyan;
